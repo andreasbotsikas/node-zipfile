@@ -5,12 +5,10 @@
   "description"   : "C++ library for handling zipfiles in node",
   "keywords"      : ["zipfile", "uncompress", "unzip", "zlib"],
   "url"           : "http://github.com/springmeyer/node-zipfile",
-   "repositories" : [
-       {
-           "type" : "git",
-           "url"  : "git://github.com/springmeyer/node-zipfile.git" 
-       } 
-   ],
+  "repository" : {
+    "type" : "git",
+    "url"  : "git://github.com/springmeyer/node-zipfile.git" 
+  },
   "author"        : "Dane Springmeyer <dane@dbsgeo.com>",
   "contributors"  : [],
   "licenses"      : ["BSD"],
